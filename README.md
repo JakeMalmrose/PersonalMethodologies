@@ -1,25 +1,25 @@
-# PersonalMethodologies
+## PersonalMethodologies
 Jake Malmrose
 Personal Methodologies
 
-Design and brainstorm:  
+#Design and brainstorm:  
 Get a mental map of the software. If you’re working with pre-existing programs or libraries that I haven’t learned, reading up on that comes first.  
 Start creating skeleton classes for major components, use this to figure out whether or not stuff needs to be broken down or redesigned.  
 For bigger programs, diagram out components using UML or something that serves the same purpose.   
 
-Write functionality skeleton:  
+#Write functionality skeleton:  
 Write skeleton methods, stuff will come up when figuring out what methods will take in/output so be prepared to re-design.  
 Here, set up tests and start writing some tests for core functionality. Complete TDD can be hard, but writing skeleton methods alongside tests should help figure out how to properly design your code, and catch bugs early.  
 
-Write functionality:  
+#Write functionality:  
 Start writing functionality within all the methods. Again, be prepared to refactor at least once.  
 If methods start balooning in size, break them up and refactor.  
 Keep an eye on code complexity. If you write a method that requires you to keep track of 7+ "things", consider refactoring after it passes tests.  
 
-Bugfix/rewrite:  
+#Bugfix/rewrite:  
 Test for bugs, and rewrite whatever is broken. Most of my time is spent here
 
-Rules:
+##Rules:
 Code should explain itself and be legible. It shouldn’t be overwhelming to look at. This means the following requirements: 
 Dont encode type information in variable names.  
 Variables are named concisely. Descriptive comes before short in variable names.  
